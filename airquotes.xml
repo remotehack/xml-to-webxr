@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Airquotes the Podcast Airquotes</title>
+    <link>https://remotehack.space</link>
+    <atom:link href="https://remotehack.space/live/feed" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <itunes:subtitle>Micro all the things!</itunes:subtitle>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:summary>A podcast during the day of the remote hack</itunes:summary>
+    <description>Talking about the fun stuff during the day of the remote hack (monthly) https://remotehack.space</description>
+    <itunes:owner>
+        <itunes:name>Remote Hack</itunes:name>
+        <itunes:email>mail@remotehack.space</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
+    <itunes:category text="Technology"/>
+    <copyright>Copyright 2020-2022 Remote Hack</copyright>
+<item>
+    <pubDate>Sat, 30 May 2020 09:50:07 +0000</pubDate>
+    <title>Episode 1 - The First of the Micro Casts!</title>
+    <description>It all starts here! Adam says hello. Intro to the podcast and musing about what we're gonna do with this.</description>
+    <itunes:summary>It all starts here! Adam says hello. Intro to the podcast and musing about what we're gonna do with this.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:02</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=1</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=1</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-1.m4a" type="audio/x-m4a" length="416899" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 11:15:00 +0000</pubDate>
+    <title>Episode 2 - Microterview with Dag</title>
+    <description>Ben chats to Dag. Dag says hello! We hear about some fun github actions hacks</description>
+    <itunes:summary>Ben chats to Dag. Dag says hello! We hear about some fun github actions hacks</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:19</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=2</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=2</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-2.m4a" type="audio/x-m4a" length="542441" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 11:25:00 +0000</pubDate>
+    <title>Episode 3 - Microterview with Ben</title>
+    <description>Adam chats to Ben. Ben says hello! We hear more about the "podcast"</description>
+    <itunes:summary>Adam chats to Ben. Ben says hello! We hear more about the "podcast"</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:26</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=3</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=3</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-3.m4a" type="audio/x-m4a" length="588330" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 12:30:00 +0000</pubDate>
+    <title>Episode 4 - Microterview with Mike</title>
+    <description>Ben chats to Mike. Mike says hello! Coincidentally, he's also hacking on podcast stuff</description>
+    <itunes:summary>Ben chats to Mike. Mike says hello! Coincidentally, he's also hacking on podcast stuff</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:44</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=4</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=4</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-4.m4a" type="audio/x-m4a" length="708230" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 12:50:00 +0000</pubDate>
+    <title>Episode 5 - Microterview with Dan</title>
+    <description>Adam talks to Dan! Dan says hello! He talks about the majesty of being our first podcast subscriber</description>
+    <itunes:summary>Adam talks to Dan! Dan says hello! He talks about the majesty of being our first podcast subscriber</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:33</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=5</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=5</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-5.m4a" type="audio/x-m4a" length="635613" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 13:15:00 +0000</pubDate>
+    <title>Episode 6 - Microterview with Gabor</title>
+    <description>Ben grills Gabor! Gabor tells us about how he's hacking BBQ stuff. How you like them apples?!?!</description>
+    <itunes:summary>Ben grills Gabor! Gabor tells us about how he's hacking BBQ stuff. How you like them apples?!?!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:14</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=6</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=6</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-6.m4a" type="audio/x-m4a" length="915906" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 14:15:00 +0000</pubDate>
+    <title>Episode 7 - Microterview with Saul</title>
+    <description>Adam Parlays with Saul! Saul describes his hackday pursuits with React and game dev</description>
+    <itunes:summary>Adam Parlays with Saul! Saul describes his hackday pursuits with React and game dev</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:14</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=7</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=7</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-7.m4a" type="audio/x-m4a" length="987697" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 14:23:00 +0000</pubDate>
+    <title>Episode 8 - Intermission chat with Ben</title>
+    <description>Ben details his audio hackings! Adam wanted to hear about Ben's latest adventures with html5 audio hacking, so here it is!</description>
+    <itunes:summary>Ben details his audio hackings! Adam wanted to hear about Ben's latest adventures with html5 audio hacking, so here it is!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:14</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=8</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=8</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-8.m4a" type="audio/x-m4a" length="965390" />
+</item>
+<item>
+    <pubDate>Sat, 30 May 2020 15:30:00 +0000</pubDate>
+    <title>Episode 9 - Microterview with Pete</title>
+    <description>Ben and Adam offer Pete a job! We're happy that Pete is now our mascot / hero</description>
+    <itunes:summary>Ben and Adam offer Pete a job! We're happy that Pete is now our mascot / hero</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:03</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=9</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=9</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-9.m4a" type="audio/x-m4a" length="840649" />
+</item>
+<item>
+    <pubDate>Sat, 27 Jun 2020 09:11:00 +0000</pubDate>
+    <title>Episode 10 - Good morning, hackday!</title>
+    <description>The June hackday sees us coming out of retirement to continue the grand tradition of remote hackdays. Ben and Adam muse about all the life lessons learned and loves lost</description>
+    <itunes:summary>The June hackday sees us coming out of retirement to continue the grand tradition of remote hackdays. Ben and Adam muse about all the life lessons learned and loves lost</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:05</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=10</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=10</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-10.m4a" type="audio/x-m4a" length="856877" />
+</item>
+<item>
+    <pubDate>Sat, 27 Jun 2020 10:09:00 +0000</pubDate>
+    <title>Episode 11 - Special Guest Hosts</title>
+    <description>Our two special guest hosts Jane and Dan interview Ben as he unboxes a special delivery. It may or may not lead to hacking...</description>
+    <itunes:summary>Our two special guest hosts Jane and Dan interview Ben as he unboxes a special delivery. It may or may not lead to hacking...</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:24</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=11</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=11</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-11.m4a" type="audio/x-m4a" length="985984" />
+</item>
+<item>
+    <pubDate>Sat, 27 Jun 2020 10:23:00 +0000</pubDate>
+    <title>Episode 12 - Microterview with Jane</title>
+    <description>Our first non-coding remote hacker, Jane, joins us to talk about her motivation for joining the hackday and how it's going</description>
+    <itunes:summary>Our first non-coding remote hacker, Jane, joins us to talk about her motivation for joining the hackday and how it's going</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:57</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=12</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=12</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-12.m4a" type="audio/x-m4a" length="800557" />
+</item>
+<item>
+    <pubDate>Sat, 27 Jun 2020 11:29:00 +0000</pubDate>
+    <title>Episode 13 - Burritos, me laddie!</title>
+    <description>Ben orders a burrito, and Adam speculates about how spicy it will be (spoiler: the naga sauce is HOT!)</description>
+    <itunes:summary>Ben orders a burrito, and Adam speculates about how spicy it will be (spoiler: the naga sauce is HOT!)</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:42</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=13</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=13</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-13.m4a" type="audio/x-m4a" length="1515782" />
+</item>
+<item>
+    <pubDate>Sat, 25 Jul 2020 12:48:00 +0000</pubDate>
+    <title>Episode 14 - Another day another holla</title>
+    <description>An intro to our fifth remote hack day! Who would have guessed we would still be making magic?!?!</description>
+    <itunes:summary>An intro to our fifth remote hack day! Who would have guessed we would still be making magic?!?!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:12</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=14</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=14</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-14.m4a" type="audio/x-m4a" length="493983" />
+</item>
+<item>
+    <pubDate>Sat, 25 Jul 2020 12:56:00 +0000</pubDate>
+    <title>Episode 15 - What's in a logo?</title>
+    <description>Ben and Adam discuss a graphical representation of git submodules. Adam made a thing. Now he needs an image for it...Ben makes a helpful suggestion in what consititutes his first of seven heroic deeds for the day</description>
+    <itunes:summary>Ben and Adam discuss a graphical representation of git submodules. Adam made a thing. Now he needs an image for it...Ben makes a helpful suggestion in what consititutes his first of seven heroic deeds for the day</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:39</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=15</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=15</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-15.m4a" type="audio/x-m4a" length="1086927" />
+</item>
+<item>
+    <pubDate>Sat, 25 Jul 2020 13:09:00 +0000</pubDate>
+    <title>Episode 16 - Ben and Ryan have a bubble</title>
+    <description>The plan was so clear...and then images of sugar plum jingles started dancing in respective heads, and it all went a bit pants, really</description>
+    <itunes:summary>The plan was so clear...and then images of sugar plum jingles started dancing in respective heads, and it all went a bit pants, really</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:37</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=16</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=16</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-16.m4a" type="audio/x-m4a" length="664328" />
+</item>
+<item>
+    <pubDate>Sat, 25 Jul 2020 13:13:00 +0000</pubDate>
+    <title>Episode 17 - Microterview with Ryan (aka: Episode 16 part 1)</title>
+    <description>Ryan is working on some stuff that is very interesting, and Adam FINALLY gets a chance to ask him about it!</description>
+    <itunes:summary>Ryan is working on some stuff that is very interesting, and Adam FINALLY gets a chance to ask him about it!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:22</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=17</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=17</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-17.m4a" type="audio/x-m4a" length="969991" />
+</item>
+<item>
+    <pubDate>Sat, 29 Aug 2020 10:16:00 +0000</pubDate>
+    <title>Episode 18 - Ben and Ryan steal the Mic and Break ALL THE RULES!</title>
+    <description>Ryan and Ben have been chatting with Pete about past projects, codespaces and baton-relay-multi-script.</description>
+    <itunes:summary>Ryan and Ben have been chatting with Pete about past projects, codespaces and baton-relay-multi-script.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:05:56</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=18</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=18</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-18.m4a" type="audio/x-m4a" length="5807661" />
+</item>
+<item>
+    <pubDate>Sat, 29 Aug 2020 15:00:00 +0000</pubDate>
+    <title>Episode 19 - Ben and Ryan (HackChat)</title>
+    <description>Sailing past the 90-second episode guidelines, Ryan and Ben chat about remote hack, building things, and the future.</description>
+    <itunes:summary>Sailing past the 90-second episode guidelines, Ryan and Ben chat about remote hack, building things, and the future.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:17:44</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=19</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=19</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-19.m4a" type="audio/x-m4a" length="19562621" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 10:12:00 +0000</pubDate>
+    <title>Episode 20 - Possession and in tent to hack</title>
+    <description>Our plucky correspondent Ben is hacking from a tent. We don't find out much, but it's nice and succinct.</description>
+    <itunes:summary>Our plucky correspondent Ben is hacking from a tent. We don't find out much, but it's nice and succinct.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:00:55</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=20</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=20</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-20.m4a" type="audio/x-m4a" length="918213" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 11:41:00 +0000</pubDate>
+    <title>Episode 21 - Ben back in the office</title>
+    <description>Ben chats to Adam about how nothing planned has been achieved, though he's happy to be out of that tent!</description>
+    <itunes:summary>Ben chats to Adam about how nothing planned has been achieved, though he's happy to be out of that tent!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:00:47</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=21</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=21</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-21.m4a" type="audio/x-m4a" length="1010673" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 13:57:00 +0000</pubDate>
+    <title>Episode 22 - A hardware day's night's hack</title>
+    <description>Panda fires up our first official hardware hack of the podcast, and finally finds out how hot his rooms are, then fixes things by adding random..........delays.</description>
+    <itunes:summary>Panda fires up our first official hardware hack of the podcast, and finally finds out how hot his rooms are, then fixes things by adding random..........delays.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:04</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=22</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=22</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-22.m4a" type="audio/x-m4a" length="1358090" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 15:57:00 +0000</pubDate>
+    <title>Episode 23 - Ben arrives at Ryan's, but they talk over the phone</title>
+    <description>While observing a suitable social distance, Ben and Ryan discuss Ryan's attempts to make people feel good, which are laudable. They enjoy the garden very much.</description>
+    <itunes:summary>While observing a suitable social distance, Ben and Ryan discuss Ryan's attempts to make people feel good, which are laudable. They enjoy the garden very much.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:29</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=23</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=23</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-23.m4a" type="audio/x-m4a" length="1490191" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 16:57:00 +0000</pubDate>
+    <title>Episode 25 - This is not the episode 24 you're looking for</title>
+    <description>I don't know where episode 24 went. Maybe it got compiled to WASM...so this is episode 25. We summarise the day quite nicely, if I do say so myself.</description>
+    <itunes:summary>I don't know where episode 24 went. Maybe it got compiled to WASM...so this is episode 25. We summarise the day quite nicely, if I do say so myself.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:39</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=25</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=25</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-25.m4a" type="audio/x-m4a" length="1897442" />
+</item>
+<item>
+    <pubDate>Sat, 26 Sep 2020 17:10:00 +0000</pubDate>
+    <title>Episode 26 - Adam as Ben interviews Ben as Adam</title>
+    <description>This idea sounded so good on paper, and if you're wondering if Ben delivered the goods, he definitely did!</description>
+    <itunes:summary>This idea sounded so good on paper, and if you're wondering if Ben delivered the goods, he definitely did!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=26</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=26</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-26.m4a" type="audio/x-m4a" length="1231125" />
+</item>
+<item>
+    <pubDate>Sat, 09 Jan 2021 20:15:00 +0000</pubDate>
+    <title>Episode 27 - A hackside chat (AKA: airquoth the raven)</title>
+    <description>A long form discussion of git merge and rebase, with various diversions into trying to get Ben to do more impressions, in which Adam breaks his own rules and we go WAY over time</description>
+    <itunes:summary>A long form discussion of git merge and rebase, with various diversions into trying to get Ben to do more impressions, in which Adam breaks his own rules and we go WAY over time</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:27:36</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=27</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=27</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-27.m4a" type="audio/x-m4a" length="31961267" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 10:00:00 +0000</pubDate>
+    <title>Episode 28 - Ben introduces the new intro</title>
+    <description>In this episode Ben excitedly reveals that we've got a new intro that was painstakingly and lovingly chopped together by Max (our new resident audio guy). Fans of the podcast will love the delivery on this episode.</description>
+    <itunes:summary>In this episode Ben excitedly reveals that we've got a new intro that was painstakingly and lovingly chopped together by Max (our new resident audio guy). Fans of the podcast will love the delivery on this episode.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:00:44</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=28</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=28</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-28.m4a" type="audio/x-m4a" length="1090422" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 11:00:00 +0000</pubDate>
+    <title>Episode 29 - Welcome to the January 2021 Remote hack</title>
+    <description>We're back and ready to hack after a relaxing break over December. This is our most international Remote Hack yet!</description>
+    <itunes:summary>We're back and ready to hack after a relaxing break over December. This is our most international Remote Hack yet!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:08</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=29</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=29</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-29.m4a" type="audio/x-m4a" length="1700174" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 12:00:00 +0000</pubDate>
+    <title>Episode 30 - Visualising LIDAR data from PCAP files</title>
+    <description>Adam is talking to Ben who has been working with replaying and visualising LIDAR data with PCAP files and the WebStream API.</description>
+    <itunes:summary>Adam is talking to Ben who has been working with replaying and visualising LIDAR data with PCAP files and the WebStream API.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:21</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=30</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=30</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-30.m4a" type="audio/x-m4a" length="3489422" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 12:30:00 +0000</pubDate>
+    <title>Episode 31 - Ben tells Dan what's going on</title>
+    <description>Dan was learning TypeScript but then found himself watching Ben fiddling around with AWS and had no idea what was going on.</description>
+    <itunes:summary>Dan was learning TypeScript but then found himself watching Ben fiddling around with AWS and had no idea what was going on.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:22</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=31</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=31</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-31.m4a" type="audio/x-m4a" length="2041078" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 12:45:00 +0000</pubDate>
+    <title>Episode 32 - Ben elaborates why</title>
+    <description>After not answering Dan's earlier question in the previous episode, Ben follows up with a more concrete answer...</description>
+    <itunes:summary>After not answering Dan's earlier question in the previous episode, Ben follows up with a more concrete answer...</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:09</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=32</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=32</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-32.m4a" type="audio/x-m4a" length="1720766" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 14:45:00 +0000</pubDate>
+    <title>Episode 33 - Magic number 33</title>
+    <description>Ruth talks in brief about about her podcast Generative Artistry</description>
+    <itunes:summary>Ruth talks in brief about about her podcast Generative Artistry</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:15</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=33</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=33</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-33.m4a" type="audio/x-m4a" length="1856902" />
+</item>
+<item>
+    <pubDate>Sat, 30 Jan 2021 15:00:00 +0000</pubDate>
+    <title>Episode 34 - Ruth talks about jigsaws</title>
+    <description>After the big cliffhanger at the end of podcast episode 33, Ruth is finally allowed to talk about generating a jigsaw pattern to be cut by her laser cutter</description>
+    <itunes:summary>After the big cliffhanger at the end of podcast episode 33, Ruth is finally allowed to talk about generating a jigsaw pattern to be cut by her laser cutter</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:42</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=34</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=34</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-34.m4a" type="audio/x-m4a" length="2518710" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 10:30:00 +0000</pubDate>
+    <title>Episode 35 - Adam and Ryan talk about what's going on</title>
+    <description>Adam forgot what he's supposed to be talking about and shared some fake news. Ryan called him out on it and is actually very happy but quite envious.</description>
+    <itunes:summary>Adam forgot what he's supposed to be talking about and shared some fake news. Ryan called him out on it and is actually very happy but quite envious.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:59</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=35</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=35</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-35.m4a" type="audio/x-m4a" length="2948854" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 13:53:00 +0000</pubDate>
+    <title>Episode 36 - Adam is evidently hungry... for content!</title>
+    <description>The new Zencastr isn't very good or useful. Adam allegedly stages a by-proxy interview with Panda. The stress of podcasting might be getting to Adam.</description>
+    <itunes:summary>The new Zencastr isn't very good or useful. Adam allegedly stages a by-proxy interview with Panda. The stress of podcasting might be getting to Adam.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:24</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=36</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=36</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-36.m4a" type="audio/x-m4a" length="3572338" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 15:00:00 +0000</pubDate>
+    <title>Episode 37 - Adam and Ryan have a Hackside Chat about "tech test" interviewing</title>
+    <description>Ryan has a good rant about tech tests, their downfalls, and some thoughts on what makes for a good tech test. You can find the good example tech test that Ryan mentioned in the episode here: https://gist.github.com/spikeheap/b9414a16d0b2eff80c131893f8142631</description>
+    <itunes:summary>Ryan has a good rant about tech tests, their downfalls, and some thoughts on what makes for a good tech test. You can find the good example tech test that Ryan mentioned in the episode here: https://gist.github.com/spikeheap/b9414a16d0b2eff80c131893f8142631</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:17:37</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=37</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=37</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-37.m4a" type="audio/x-m4a" length="26041718" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 15:01:00 +0000</pubDate>
+    <title>Episode 38 - Ben and Max talk about the recent improvements to the podcast</title>
+    <description>Ben and Max were too busy hacking today so didn't get a chance to participate in the earlier podcast episodes that were recorded this month, so they have to guess what was discussed, and discuss the merits of the format. Definitely episode 37.</description>
+    <itunes:summary>Ben and Max were too busy hacking today so didn't get a chance to participate in the earlier podcast episodes that were recorded this month, so they have to guess what was discussed, and discuss the merits of the format. Definitely episode 37.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:45</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=38</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=38</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-38.m4a" type="audio/x-m4a" length="2602794" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 15:02:00 +0000</pubDate>
+    <title>Episode 39 - Ben looks for a victim</title>
+    <description>Max joined Ben again, while he went looking for a victim to interview. Panda received his second absentee-interview of the day. Ben is happy. At this point we are not sure what's going on.</description>
+    <itunes:summary>Max joined Ben again, while he went looking for a victim to interview. Panda received his second absentee-interview of the day. Ben is happy. At this point we are not sure what's going on.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:31</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=39</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=39</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-39.m4a" type="audio/x-m4a" length="2249882" />
+</item>
+<item>
+    <pubDate>Sat, 27 Feb 2021 15:03:00 +0000</pubDate>
+    <title>Episode 40 - Ben is looking for Max. Could be episode 40??</title>
+    <description>Max? MAX? Max... MAX! MAX??!</description>
+    <itunes:summary>Max? MAX? Max... MAX! MAX??!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:54</itunes:duration>
+    <itunes:explicit>yes</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=40</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=40</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-40.m4a" type="audio/x-m4a" length="2832750" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:01:00 +0000</pubDate>
+    <title>Episode 41 - Remote Hack One Year Anniversary with Adam and Ryan</title>
+    <description>Adam is late to the start of the day but Ryan is well equipped to bring Adam up to speed and summarise the days activities. Ryan would still like access to GitHub Codespaces.</description>
+    <itunes:summary>Adam is late to the start of the day but Ryan is well equipped to bring Adam up to speed and summarise the days activities. Ryan would still like access to GitHub Codespaces.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:14</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=41</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=41</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-41.m4a" type="audio/x-m4a" length="3328776" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:02:00 +0000</pubDate>
+    <title>Episode 42 - Ryan and Adam chat about passwords</title>
+    <description>Adam has been on a journey to secure his online accounts. Big shout out to 1Password! #TEBGTW1 #DontHackMeBro</description>
+    <itunes:summary>Adam has been on a journey to secure his online accounts. Big shout out to 1Password! #TEBGTW1 #DontHackMeBro</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:05:26</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=42</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=42</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-42.m4a" type="audio/x-m4a" length="8059831" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:03:00 +0000</pubDate>
+    <title>Episode 43 - Adam chats with first-timer Tom</title>
+    <description>A brief primer on dynamic micro front-end architectures and why creating one from scratch is a fun task</description>
+    <itunes:summary>A brief primer on dynamic micro front-end architectures and why creating one from scratch is a fun task</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:07:19</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=43</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=43</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-43.m4a" type="audio/x-m4a" length="10841214" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:04:00 +0000</pubDate>
+    <title>Episode 44 - Adam and Ben announce something big for next time</title>
+    <description>Remote Hack April is going to be an unconference. Surprise! More details to follow on the Remote Hack website</description>
+    <itunes:summary>Remote Hack April is going to be an unconference. Surprise! More details to follow on the Remote Hack website</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:55</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=44</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=44</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-44.m4a" type="audio/x-m4a" length="4327364" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:05:00 +0000</pubDate>
+    <title>Episode 45 - Ben asks Adam about his current side projects</title>
+    <description>Adam has some big ideas around Tensorflow and language learning games. He's totally not going to spend another Remote hack fiddling with AWS lambda flash cards.</description>
+    <itunes:summary>Adam has some big ideas around Tensorflow and language learning games. He's totally not going to spend another Remote hack fiddling with AWS lambda flash cards.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:39</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=45</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=45</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-45.m4a" type="audio/x-m4a" length="3940775" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:06:00 +0000</pubDate>
+    <title>Episode 46 - The one where Adam and Ben discuss Max as a third-party library</title>
+    <description>Importing Max in to your podcast project can greatly improve the quality of your podcast, but if you want to fork his source code you might encounter some human rights violations. All podcasts and no play makes Max a dull boy. Coming soon, OpenMax. Pay less, earn more! #EconomicsBS</description>
+    <itunes:summary>Importing Max in to your podcast project can greatly improve the quality of your podcast, but if you want to fork his source code you might encounter some human rights violations. All podcasts and no play makes Max a dull boy. Coming soon, OpenMax. Pay less, earn more! #EconomicsBS</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:50</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=46</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=46</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-46.m4a" type="audio/x-m4a" length="5687740" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:07:00 +0000</pubDate>
+    <title>Episode 47 - Adam and Becky chat about what's going on</title>
+    <description>Becky is back for her second Remote Hack in a row, hacking on modernising old Python sentiment analysis tutorials</description>
+    <itunes:summary>Becky is back for her second Remote Hack in a row, hacking on modernising old Python sentiment analysis tutorials</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:35</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=47</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=47</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-47.m4a" type="audio/x-m4a" length="3844922" />
+</item>
+<item>
+    <pubDate>Sat, 27 Mar 2021 15:08:00 +0000</pubDate>
+    <title>Episode 48 - Open Air Quote Podcast Close Air Quote with Ruth and Adam</title>
+    <description>Guest host Ruth breaks the brand. Adam plays the UNO reverse card and does an interview switcheroo. Ruth makes sounds with her body on video (Phrasing!)</description>
+    <itunes:summary>Guest host Ruth breaks the brand. Adam plays the UNO reverse card and does an interview switcheroo. Ruth makes sounds with her body on video (Phrasing!)</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:21</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=48</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=48</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-48.m4a" type="audio/x-m4a" length="3498902" />
+</item>
+<item>
+    <pubDate>Sat, 24 Apr 2021 15:00:00 +0000</pubDate>
+    <title>Episode 49 - Ben and Max talk about audio and photos</title>
+    <description>Ben has a fancy mic that is underutilised.</description>
+    <itunes:summary>Ben has a fancy mic that is underutilised.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:04</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=49</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=49</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-49.m4a" type="audio/x-m4a" length="4542446" />
+</item>
+<item>
+    <pubDate>Sat, 24 Apr 2021 15:01:00 +0000</pubDate>
+    <title>Episode 50 - Today is an un-unconference.</title>
+    <description>RemoteHack Unconferences are a bit like Fight Clubs. This might have been a mistake.</description>
+    <itunes:summary>RemoteHack Unconferences are a bit like Fight Clubs. This might have been a mistake.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:45</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=50</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=50</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-50.m4a" type="audio/x-m4a" length="4086566" />
+</item>
+<item>
+    <pubDate>Sat, 24 Apr 2021 15:02:00 +0000</pubDate>
+    <title>Episode 51 - Ben, Max, Ruth, and Pete talk about they've been working on</title>
+    <description>Ben remotely hacked Ruths pen plotter, Pete defined when to undefine occluded voxel faces, Max spent the afternoon SSHing to the wrong Raspberry Pi.</description>
+    <itunes:summary>Ben remotely hacked Ruths pen plotter, Pete defined when to undefine occluded voxel faces, Max spent the afternoon SSHing to the wrong Raspberry Pi.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:05:51</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=51</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=51</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-51.m4a" type="audio/x-m4a" length="8408042" />
+</item>
+<item>
+    <pubDate>Sat, 24 Apr 2021 15:03:00 +0000</pubDate>
+    <title>Episode 52 - Spikeheap Specula-cast Spectacular</title>
+    <description>The team speculate about what Ryan has been up to.</description>
+    <itunes:summary>The team speculate about what Ryan has been up to.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:21</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=52</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=52</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-52.m4a" type="audio/x-m4a" length="3487110" />
+</item>
+<item>
+    <pubDate>Mon, 03 May 2021 12:00:00 +0000</pubDate>
+    <title>Episode 53 - Adam declares a bonus hack day, Max is hanging pictures..</title>
+    <description>Recorded on mobile using text to speech and arranged with Anchor</description>
+    <itunes:summary>Recorded on mobile using text to speech and arranged with Anchor</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:00:54</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=53</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=53</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-53.m4a" type="audio/x-m4a" length="887168" />
+</item>
+<item>
+    <pubDate>Mon, 03 May 2021 13:00:00 +0000</pubDate>
+    <title>Episode 54 - 54b version 1.1.1.0 final FINAL the sandwich filler episode</title>
+    <description>Adam drops some audio off for Max via Anchor's call-in feature, while Max makes some sandwich hacks.</description>
+    <itunes:summary>Adam drops some audio off for Max via Anchor's call-in feature, while Max makes some sandwich hacks.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:34</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=54</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=54</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-54.m4a" type="audio/x-m4a" length="3488315" />
+</item>
+<item>
+    <pubDate>Sat, 29 May 2021 15:00:00 +0000</pubDate>
+    <title>Episode 55 - Remote Hack 14!</title>
+    <description>Adam covers the planned activities for the day in monologue</description>
+    <itunes:summary>Adam covers the planned activities for the day in monologue</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:08</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=55</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=55</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-55.m4a" type="audio/x-m4a" length="1697886" />
+</item>
+<item>
+    <pubDate>Sat, 29 May 2021 15:01:00 +0000</pubDate>
+    <title>Episode 56 - Ben and Max are pressured in to using great software</title>
+    <description>Adam gets pushy about the new podcast recording software not being ready, Ben and Max are being super productive. S Y N E R G Y</description>
+    <itunes:summary>Adam gets pushy about the new podcast recording software not being ready, Ben and Max are being super productive. S Y N E R G Y</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:02:27</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=56</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=56</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-56.m4a" type="audio/x-m4a" length="3632675" />
+</item>
+<item>
+    <pubDate>Sat, 29 May 2021 15:02:00 +0000</pubDate>
+    <title>Episode 57 - Adam and Evan basically solve tech education</title>
+    <description>Adam chats with Evan about the creation of his learning tool "Lenses" and contextual learning</description>
+    <itunes:summary>Adam chats with Evan about the creation of his learning tool "Lenses" and contextual learning</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:34</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=57</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=57</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-57.m4a" type="audio/x-m4a" length="5284342" />
+</item>
+<item>
+    <pubDate>Sat, 29 May 2021 15:03:00 +0000</pubDate>
+    <title>Episode 58 - Dropping the first async episode</title>
+    <description>Dropped mostly using with the new podcast recorder "Dropper" that Max, Ben and Ryan have been building out today. Apologies in advance!</description>
+    <itunes:summary>Dropped mostly using with the new podcast recorder "Dropper" that Max, Ben and Ryan have been building out today. Apologies in advance!</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:03:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=58</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=58</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-58.m4a" type="audio/x-m4a" length="4460084" />
+</item>
+<item>
+    <pubDate>Sat, 26 Jun 2021 15:00:00 +0000</pubDate>
+    <title>Episode 59 - Hackside Chat - Ryan and Adam try to share rambles about shared mental models</title>
+    <description>Ryan and Adam try to share rambles about shared mental models</description>
+    <itunes:summary>Ryan and Adam try to share rambles about shared mental models</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:25:37</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=59</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=59</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-59.m4a" type="audio/x-m4a" length="37866322" />
+</item>
+<item>
+    <pubDate>Sat, 26 Feb 2022 15:00:00 +0000</pubDate>
+    <title>Episode 60 - Adam and Ruth are saving the podcast</title>
+    <description>Adam and Ruth are saving the podcast. Ben stops by for a special podcast introduction. There are cocktails, coordinates, slippery fabric, broken containers and some spicy talk about olives and Tubby Tom's hot sauce: The perfect blend of taste and spice.</description>
+    <itunes:summary>Adam and Ruth are saving the podcast. Ben stops by for a special podcast introduction. There are cocktails, coordinates, slippery fabric, broken containers and some spicy talk about olives and Tubby Tom's hot sauce: The perfect blend of taste and spice.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:22:30</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=60</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=60</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-60.m4a" type="audio/x-m4a" length="33267354" />
+</item>
+<item>
+    <pubDate>Sat, 28 May 2022 15:00:00 +0000</pubDate>
+    <title>Episode 61 - Adam and Max have a micro chat</title>
+    <description>Max has been having trouble moving a Raspberry Pi 4 setup from micro SD over to SSD. He has been tinking with hosting a local development server on the Raspberry Pi 4. Read more on Max's blog: https://blog.omgmog.net/post/raspberry-pi-local-dev-vscode-remote/</description>
+    <itunes:summary>Max has been having trouble moving a Raspberry Pi 4 setup from micro SD over to SSD. He has been tinking with hosting a local development server on the Raspberry Pi 4. Read more on Max's blog: https://blog.omgmog.net/post/raspberry-pi-local-dev-vscode-remote/</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:56</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=61</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=61</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-61.m4a" type="audio/x-m4a" length="2873218" />
+</item>
+<item>
+    <pubDate>Sat, 28 May 2022 15:01:00 +0000</pubDate>
+    <title>Episode 62 - Adam (and Max) interview Adam about his corpus scraping endeavour</title>
+    <description>Adam is scraping all sorts of documentation to analyse the use of jargon and regular language or something. He has collected many many megabytes. It's all pretty scrapey to me. What do I know, I'm just the editor?! https://micromaterialsblog.wordpress.com</description>
+    <itunes:summary>Adam is scraping all sorts of documentation to analyse the use of jargon and regular language or something. He has collected many many megabytes. It's all pretty scrapey to me. What do I know, I'm just the editor?! https://micromaterialsblog.wordpress.com</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:04:24</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=62</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=62</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-62.m4a" type="audio/x-m4a" length="6525038" />
+</item>
+<item>
+    <pubDate>Sat, 28 May 2022 15:02:00 +0000</pubDate>
+    <title>Episode 63 - Max has been solving problems. Adam recalls some of the highlights.</title>
+    <description>I've got 99 problems and 62 ain't done. There is a follow-up bonus track for this episode. Check out https://remotehack.space/live/</description>
+    <itunes:summary>I've got 99 problems and 62 ain't done. There is a follow-up bonus track for this episode. Check out https://remotehack.space/live/</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:01:58</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=63</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=63</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-63.m4a" type="audio/x-m4a" length="2913974" />
+</item>
+<item>
+    <pubDate>Sat, 28 May 2022 15:03:00 +0000</pubDate>
+    <title>Episode 64 - The DevRel Hackside Chat with Hugh and Joe</title>
+    <description>Adam interviews Hugh and Joe about their work in DevRel, what it even is, what it entails, and their average air mileage.</description>
+    <itunes:summary>Adam interviews Hugh and Joe about their work in DevRel, what it even is, what it entails, and their average air mileage.</itunes:summary>
+    <itunes:author>Remote Hack</itunes:author>
+    <itunes:duration>00:21:38</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <link>https://remotehack.space/live/?episode=64</link>
+    <guid>https://remotehack.space/live/feed.xml?episode=64</guid>
+    <enclosure url="https://remotehack.space/live/audio/episode-64.m4a" type="audio/x-m4a" length="31978622" />
+</item>
+</channel>
+</rss>
