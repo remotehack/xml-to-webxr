@@ -1,10 +1,9 @@
-import confetti from 'https://cdn.skypack.dev/canvas-confetti';
-import * as THREE from 'https://cdn.skypack.dev/three';
-import parseDuration from "https://cdn.skypack.dev/parse-duration";
+import * as THREE from 'https://unpkg.com/three@0.141.0/build/three.module.js';
 
-console.log("EMBEDDED SCRIPT!", confetti)
+import { ARButton } from 'https://unpkg.com/three@0.141.0/examples/jsm/webxr/ARButton.js'
 
-confetti();
+console.log("EMBEDDED SCRIPT!", ARButton)
+
 
 
 
@@ -14,7 +13,8 @@ camera.position.z = 1.5;
 
 const scene = new THREE.Scene();
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREE.WebGLRenderer({ antialias: false });
+renderer.setClearAlpha(0)
 
 // renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setSize(700, 700);
@@ -25,8 +25,7 @@ document.querySelector('#output').appendChild(renderer.domElement);
 
 
 
-// https://threejs.org/docs/?q=sphe#api/en/geometries/SphereGeometry
-const sphereGeom = new THREE.SphereGeometry(.06, 6, 6);
+
 
 const spheres = []
 
@@ -37,15 +36,26 @@ for (const item of document.querySelectorAll('.item')) {
     const durationString = item
         .querySelector("a")
         .querySelector("span").innerText;
-    console.log(parseDuration('00:01:41'));
-    // duration = parseDuration(durationString)
+    
+    const durationMatcher = durationString.match(/(\d+):(\d+):(\d+)/)
+    let durationSeconds = 0
 
-    // console.log({ title, description, link, duration });
+    if (durationMatcher) {
+        durationSeconds = parseInt(durationMatcher[1]) * 60 * 60
+        durationSeconds += parseInt(durationMatcher[2]) * 60
+        durationSeconds += parseInt(durationMatcher[3])
+    }
+
+    const color =  0xffffff * Math.random()
 
     const material = new THREE.MeshBasicMaterial({
-        color: 0xffffff * Math.random(),
+        color,
         wireframe: true,
     });
+
+    // https://threejs.org/docs/?q=sphe#api/en/geometries/SphereGeometry
+    const sphereRadius = 0.001 * durationSeconds
+    const sphereGeom = new THREE.SphereGeometry(sphereRadius, 6, 6);
     const sphere = new THREE.Mesh(sphereGeom, material);
 
     sphere.position.x = Math.random() - 0.5;
@@ -65,23 +75,49 @@ for (const item of document.querySelectorAll('.item')) {
             const audio = new Audio(link)
             audio.play()
         },
+        color
     };
 }
 
+
+let hover;
 const playing = new Set();
 
 const raycaster = new THREE.Raycaster();
-const pointer = new THREE.Vector2();
+const pointer = new THREE.Vector2(.5, .5);
 
 function onPointerMove(event) {
     pointer.x = (event.offsetX / 700) * 2 - 1;
     pointer.y = - (event.offsetY / 700) * 2 + 1;
 }
 
+function point() {
+    raycaster.setFromCamera(pointer, camera);
+    const intersects = raycaster.intersectObjects(scene.children);
+    hover = null
+    for (const intersect of intersects) {
+        const sphere = intersect.object;
+        sphere.material.color.set(0xff0000);
+
+        hover = sphere
+
+    }
+
+
+}
+
 renderer.domElement.addEventListener("mousemove", onPointerMove)
 
 renderer.domElement.addEventListener("mousedown", () => {
     console.log("DOWN")
+    const sphere = hover;
+    if (!playing.has(sphere)) {
+            console.log("...", sphere)
+
+            playing.add(sphere)
+
+            sphere.userData?.play?.()
+        }
 })
 
 
@@ -89,22 +125,7 @@ renderer.domElement.addEventListener("mousedown", () => {
 
 
 function animation(time) {
-
-    raycaster.setFromCamera(pointer, camera);
-    const intersects = raycaster.intersectObjects(scene.children);
-    for (const intersect of intersects) {
-        const sphere = intersect.object;
-        sphere.material.color.set(0xff0000);
-
-        if (!playing.has(sphere)) {
-            console.log("...", sphere)
-
-            playing.add(sphere)
-
-            sphere.userData?.play?.()
-        }
-    }
-
+    point()
 
     spheres.forEach((sphere, i) => {
         sphere.rotation.x = (time / 5000) + i;
@@ -115,5 +136,7 @@ function animation(time) {
 
 }
 
+renderer.xr.enabled = true;
+document.body.appendChild( ARButton.createButton( renderer ) )
 
 renderer.setAnimationLoop(animation);

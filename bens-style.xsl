@@ -8,6 +8,7 @@
     <html>
         <head>
             <title>🧙‍♀️</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
         </head>
         <body>
             <div id="output"></div>
@@ -15,6 +16,7 @@
             <div id="content">
                 <xsl:apply-templates select="*"/>
             </div>
+            
             
             <script src="live-reload.js"></script>
             <script type="module" src="embedded.js"></script>
