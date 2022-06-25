@@ -2,9 +2,7 @@ import * as THREE from 'https://unpkg.com/three@0.141.0/build/three.module.js';
 
 import { ARButton } from 'https://unpkg.com/three@0.141.0/examples/jsm/webxr/ARButton.js'
 
-console.log("EMBEDDED SCRIPT!", ARButton)
-
-
+import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js'
 
 
 
@@ -16,13 +14,12 @@ const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({ antialias: false });
 renderer.setClearAlpha(0)
 
-// renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setSize(700, 700);
-// renderer.setAnimationLoop(animation);
 
 document.querySelector('#output').appendChild(renderer.domElement);
 
 
+const controls = new OrbitControls( camera, renderer.domElement )
 
 
 
@@ -58,9 +55,9 @@ for (const item of document.querySelectorAll('.item')) {
     const sphereGeom = new THREE.SphereGeometry(sphereRadius, 6, 6);
     const sphere = new THREE.Mesh(sphereGeom, material);
 
-    sphere.position.x = Math.random() - 0.5;
-    sphere.position.y = Math.random() - 0.5;
-    sphere.position.z = Math.random() - 0.5;
+    sphere.position.x = (Math.random() - 0.5) * 2;
+    sphere.position.y = (Math.random() - 0.5) * 2;
+    sphere.position.z = (Math.random() - 0.5) * 2;
 
     sphere.rotation.x = Math.random();
     sphere.rotation.y = Math.random();
@@ -69,68 +66,72 @@ for (const item of document.querySelectorAll('.item')) {
     spheres.push(sphere);
 
     sphere.userData = {
-        play() {
-            console.log("OVER");
-            console.log("Start playing", link);
-            const audio = new Audio(link)
-            audio.play()
-        },
+        link,
         color
     };
 }
 
 
+
 let hover;
-const playing = new Set();
 
 const raycaster = new THREE.Raycaster();
-const pointer = new THREE.Vector2(.5, .5);
+const pointer = new THREE.Vector2(0,0);
 
-function onPointerMove(event) {
-    pointer.x = (event.offsetX / 700) * 2 - 1;
-    pointer.y = - (event.offsetY / 700) * 2 + 1;
-}
+let playing;
 
 function point() {
     raycaster.setFromCamera(pointer, camera);
     const intersects = raycaster.intersectObjects(scene.children);
-    hover = null
-    for (const intersect of intersects) {
-        const sphere = intersect.object;
-        sphere.material.color.set(0xff0000);
 
-        hover = sphere
+    let max = 10000;
+    let nearest;
+    for (const {object, distance} of intersects) {
+        if(distance < max) {
+            max = distance
+            nearest = object;
+        }
+    }
+    if(nearest) {
+        if(hover !== nearest) {
+            
+            if(nearest.userData.link) {
+                if(playing) playing.pause()
+
+                console.log("PLAY", nearest.userData.link)
+
+                const audio = new Audio(nearest.userData.link)
+                audio.play()
+                playing= audio;
+            }
+            
+
+            hover = nearest
+        }
 
     }
-
-
+    
 }
-
-renderer.domElement.addEventListener("mousemove", onPointerMove)
-
-renderer.domElement.addEventListener("mousedown", () => {
-    console.log("DOWN")
-    const sphere = hover;
-    if (!playing.has(sphere)) {
-            console.log("...", sphere)
-
-            playing.add(sphere)
-
-            sphere.userData?.play?.()
-        }
-})
-
-
 
 
 
 function animation(time) {
+    
+    controls.update();
+
     point()
 
     spheres.forEach((sphere, i) => {
         sphere.rotation.x = (time / 5000) + i;
         sphere.rotation.y = (time / 10000) + i;
+
+        if(sphere === hover) {
+            sphere.material.wireframe = false
+        } else {
+            sphere.material.wireframe = true
+        }
     })
+
 
     renderer.render(scene, camera);
 
