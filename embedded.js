@@ -6,7 +6,6 @@ import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/cont
 import { CSS2DRenderer, CSS2DObject } from 'https://unpkg.com/three@0.141.0/examples/jsm/renderers/CSS2DRenderer.js'
 
 
-
 const camera = new THREE.PerspectiveCamera(70, 1, 0.01, 10);
 camera.position.z = 1.5;
 
@@ -31,10 +30,20 @@ const controls = new OrbitControls( camera, labelRenderer.domElement )
 
 const spheres = []
 
+const clength = document.querySelectorAll('.item').length;
+const step = (2 * Math.PI) / clength;
+let angle = 0;
+const circle = {
+  width: 5,
+  depth: 5,
+  radius: 2
+};
+
+
 for (const item of document.querySelectorAll('.item')) {
     const title = item.querySelector("h2").innerText;
-    const description = item.querySelector("p").innerText;
     const link = item.querySelector("a").getAttribute("href");
+
     const durationString = item
         .querySelector("a")
         .querySelector("span").innerText;
@@ -48,7 +57,7 @@ for (const item of document.querySelectorAll('.item')) {
         durationSeconds += parseInt(durationMatcher[3])
     }
 
-    const color =  0xffffff * Math.random()
+    const color = 0xffffff * Math.random()
 
     const material = new THREE.MeshBasicMaterial({
         color,
@@ -56,14 +65,17 @@ for (const item of document.querySelectorAll('.item')) {
     });
 
     // https://threejs.org/docs/?q=sphe#api/en/geometries/SphereGeometry
-    const sphereRadius = 0.002 * durationSeconds
+    const sphereRadius = 0.0025 * durationSeconds
     const sphereGeom = new THREE.SphereGeometry(sphereRadius, 6, 6);
     const sphere = new THREE.Mesh(sphereGeom, material);
 
-    // maybe group and position more based on date?
-    sphere.position.x = (Math.random() - 0.5) * 2;
-    sphere.position.y = (Math.random() - 0.5) * 2;
-    sphere.position.z = (Math.random() - 0.5) * 2;
+
+    sphere.position.y = (Math.random() - 0.5) * 2; 
+
+
+    sphere.position.x = (circle.width / clength) + (circle.radius * Math.cos(angle));
+    sphere.position.z = (circle.depth / clength) + (circle.radius * Math.sin(angle));
+    angle += step;
 
     sphere.rotation.x = Math.random();
     sphere.rotation.y = Math.random();
@@ -125,7 +137,7 @@ function point() {
 
                 const audio = new Audio(nearest.userData.link)
                 audio.play()
-                playing= audio;
+                playing = audio;
             }
             
 
@@ -160,9 +172,12 @@ function animation(time) {
         if(sphere === hover) {
             sphere.material.wireframe = false;
             sphere.children[0].visible = true;
+
+            sphere.scale.set(1.5,1.5,1.5);
         } else {
             sphere.material.wireframe = true;
             sphere.children[0].visible = false;
+            sphere.scale.set(1,1,1);
         }
     })
 
