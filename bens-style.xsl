@@ -18,6 +18,17 @@
                 }
             }
             </script>
+            
+            <style>
+            html, body { width: 100vw; min-height: 100vh; margin: 0 auto;}
+            html { font-size: 20px; font-family: sans-serif;overflow-x: hidden;} 
+            .item {
+              border-bottom: 1px solid red;
+              margin: 2rem auto; 
+              max-width: 80vw;
+            }
+            .label { background-color: rgba(0,0,0,.8); padding: .5em; color: #fff; border-radius: 1em;}
+            </style>
         </head>
         <body>
             <div id="output"></div>
@@ -27,7 +38,7 @@
             </div>
             
             
-            <script src="live-reload.js"></script>
+            <!-- <script src="live-reload.js"></script> -->
             <script type="module" src="embedded.js"></script>
 
         </body>
@@ -37,13 +48,11 @@
   <xsl:template match="item">
     <section class="item">
         <h2><xsl:value-of select="title"/></h2>
-        
         <p><xsl:value-of select="description"/></p>
-        <!-- special caps for BEN. There's a different syntax to inject values into attributes -->
-        <A HREF="{enclosure/@url}">link (<span><xsl:value-of select="//*[name()='itunes:duration']"/></span>)</A>
-        
-        <hr />
+        <xsl:element name="a">
+          <xsl:attribute name="href"><xsl:value-of select="enclosure/@url"/></xsl:attribute>
+          <xsl:value-of select="//*[name()='enclosure']/@url"/> (<span><xsl:value-of select="//*[name()='itunes:duration']"/></span>)
+        </xsl:element>
     </section>
   </xsl:template>
-
 </xsl:stylesheet>

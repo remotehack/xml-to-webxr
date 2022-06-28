@@ -3,6 +3,7 @@ import * as THREE from 'https://unpkg.com/three@0.141.0/build/three.module.js';
 import { ARButton } from 'https://unpkg.com/three@0.141.0/examples/jsm/webxr/ARButton.js'
 
 import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js'
+import { CSS2DRenderer, CSS2DObject } from 'https://unpkg.com/three@0.141.0/examples/jsm/renderers/CSS2DRenderer.js'
 
 
 
@@ -13,13 +14,17 @@ const scene = new THREE.Scene();
 
 const renderer = new THREE.WebGLRenderer({ antialias: false });
 renderer.setClearAlpha(0)
-
-renderer.setSize(700, 700);
+renderer.setSize( window.innerWidth, window.innerHeight );
 
 document.querySelector('#output').appendChild(renderer.domElement);
 
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.setSize( window.innerWidth, window.innerHeight );
+labelRenderer.domElement.style.position = 'absolute';
+labelRenderer.domElement.style.top = '0px';
+document.querySelector('#output').appendChild( labelRenderer.domElement );
 
-const controls = new OrbitControls( camera, renderer.domElement )
+const controls = new OrbitControls( camera, labelRenderer.domElement )
 
 
 
@@ -51,16 +56,33 @@ for (const item of document.querySelectorAll('.item')) {
     });
 
     // https://threejs.org/docs/?q=sphe#api/en/geometries/SphereGeometry
-    const sphereRadius = 0.001 * durationSeconds
+    const sphereRadius = 0.002 * durationSeconds
     const sphereGeom = new THREE.SphereGeometry(sphereRadius, 6, 6);
     const sphere = new THREE.Mesh(sphereGeom, material);
 
+    // maybe group and position more based on date?
     sphere.position.x = (Math.random() - 0.5) * 2;
     sphere.position.y = (Math.random() - 0.5) * 2;
     sphere.position.z = (Math.random() - 0.5) * 2;
 
     sphere.rotation.x = Math.random();
     sphere.rotation.y = Math.random();
+
+
+    
+
+    const sphereTooltip = document.createElement( 'div' );
+    sphereTooltip.className = 'label';
+    sphereTooltip.textContent = title;
+    sphereTooltip.style.marginTop = '-1em';
+
+    const sphereTooltipLabel = new CSS2DObject( sphereTooltip );
+    sphereTooltipLabel.position.set( 0, sphereRadius, 0 );
+    sphere.add( sphereTooltipLabel );
+    sphereTooltipLabel.layers.set( 0 );
+    sphereTooltipLabel.visible = false;
+
+    sphere.children[0].visible = false;
 
     scene.add(sphere);
     spheres.push(sphere);
@@ -69,6 +91,7 @@ for (const item of document.querySelectorAll('.item')) {
         link,
         color
     };
+
 }
 
 
@@ -114,6 +137,15 @@ function point() {
 }
 
 
+function onWindowResize() {
+
+    camera.aspect = window.innerWidth / window.innerHeight;
+
+    camera.updateProjectionMatrix();
+
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    labelRenderer.setSize( window.innerWidth, window.innerHeight );
+}
 
 function animation(time) {
     
@@ -126,18 +158,23 @@ function animation(time) {
         sphere.rotation.y = (time / 10000) + i;
 
         if(sphere === hover) {
-            sphere.material.wireframe = false
+            sphere.material.wireframe = false;
+            sphere.children[0].visible = true;
         } else {
-            sphere.material.wireframe = true
+            sphere.material.wireframe = true;
+            sphere.children[0].visible = false;
         }
     })
 
 
     renderer.render(scene, camera);
+    labelRenderer.render( scene, camera );
 
 }
 
 renderer.xr.enabled = true;
 document.body.appendChild( ARButton.createButton( renderer ) )
+
+window.addEventListener( 'resize', onWindowResize );
 
 renderer.setAnimationLoop(animation);
